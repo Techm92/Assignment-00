@@ -1,6 +1,14 @@
 class MySolution {
   countDownSum(num) {
-    // Insert code here;
+    // Insert code here
+    var sum = 0;
+    for( var i = num ; i >= 0 ; i-- )
+    {
+      //document.write(i);
+      sum += i;
+      //document.write(sum);
+    }
+    document.write(sum, "<br />");
   }
 }
 
