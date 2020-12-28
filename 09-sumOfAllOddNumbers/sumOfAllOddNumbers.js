@@ -1,5 +1,15 @@
 function sumOfAllOddNumbers(nums) {
   // Insert code here;
+  var oddCount= 0;
+
+  for( var i =0; i < nums.length; i++)
+  {
+    if(nums[i] % 2 != 0)
+    {
+      oddCount += 1;
+    }
+  }
+  document.write(oddCount);
 }
 
 // Do not edit this line;
